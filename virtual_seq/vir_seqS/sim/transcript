@@ -1,0 +1,131 @@
+# vsim -c "+UVM_VERBOSITY=UVM_FULL" tb_top -do "run -a; quit -f" 
+# Start time: 16:27:04 on Feb 12,2019
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# //  Questa Sim-64
+# //  Version 10.4e win64 Apr  9 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.tb_sv_unit(fast)
+# Loading work.tb_top(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading E:/questa/questa_setup/uvm-1.1d\win64\uvm_dpi.dll
+# run -a
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test base_test...
+# UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# uvm_test_top               base_test               -     @457 
+#   m_top_env                top_env                 -     @465 
+#     m_apb_agent            apb_agent               -     @477 
+#       m_apb_drv            apb_driver              -     @625 
+#         rsp_port           uvm_analysis_port       -     @642 
+#         seq_item_port      uvm_seq_item_pull_port  -     @633 
+#       m_apb_mon            apb_monitor             -     @651 
+#       m_apb_seqr           uvm_sequencer           -     @502 
+#         rsp_export         uvm_analysis_export     -     @510 
+#         seq_item_export    uvm_seq_item_pull_imp   -     @616 
+#         arbitration_queue  array                   0     -    
+#         lock_queue         array                   0     -    
+#         num_last_reqs      integral                32    'd1  
+#         num_last_rsps      integral                32    'd1  
+#     m_spi_agent            spi_agent               -     @493 
+#       m_spi_drv            spi_driver              -     @788 
+#         rsp_port           uvm_analysis_port       -     @805 
+#         seq_item_port      uvm_seq_item_pull_port  -     @796 
+#       m_spi_mon            spi_monitor             -     @814 
+#       m_spi_seqr           uvm_sequencer           -     @665 
+#         rsp_export         uvm_analysis_export     -     @673 
+#         seq_item_export    uvm_seq_item_pull_imp   -     @779 
+#         arbitration_queue  array                   0     -    
+#         lock_queue         array                   0     -    
+#         num_last_reqs      integral                32    'd1  
+#         num_last_rsps      integral                32    'd1  
+#     m_wb_agent             wb_agent                -     @485 
+#       m_wb_drv             wb_driver               -     @951 
+#         rsp_port           uvm_analysis_port       -     @968 
+#         seq_item_port      uvm_seq_item_pull_port  -     @959 
+#       m_wb_mon             wb_monitor              -     @977 
+#       m_wb_seqr            uvm_sequencer           -     @828 
+#         rsp_export         uvm_analysis_export     -     @836 
+#         seq_item_export    uvm_seq_item_pull_imp   -     @942 
+#         arbitration_queue  array                   0     -    
+#         lock_queue         array                   0     -    
+#         num_last_reqs      integral                32    'd1  
+#         num_last_rsps      integral                32    'd1  
+# --------------------------------------------------------------
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(277) @ 0: reporter [Questa UVM] End Of Elaboration
+# UVM_INFO verilog_src/uvm-1.1d/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.m_top_env.m_wb_agent.m_wb_seqr [PHASESEQ] No default phase sequence for phase 'run'
+# UVM_INFO verilog_src/uvm-1.1d/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.m_top_env.m_spi_agent.m_spi_seqr [PHASESEQ] No default phase sequence for phase 'run'
+# UVM_INFO verilog_src/uvm-1.1d/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.m_top_env.m_apb_agent.m_apb_seqr [PHASESEQ] No default phase sequence for phase 'run'
+# UVM_INFO verilog_src/uvm-1.1d/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.m_top_env.m_wb_agent.m_wb_seqr [PHASESEQ] No default phase sequence for phase 'pre_reset'
+# UVM_INFO verilog_src/uvm-1.1d/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.m_top_env.m_spi_agent.m_spi_seqr [PHASESEQ] No default phase sequence for phase 'pre_reset'
+# UVM_INFO verilog_src/uvm-1.1d/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.m_top_env.m_apb_agent.m_apb_seqr [PHASESEQ] No default phase sequence for phase 'pre_reset'
+# UVM_INFO verilog_src/uvm-1.1d/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.m_top_env.m_wb_agent.m_wb_seqr [PHASESEQ] No default phase sequence for phase 'reset'
+# UVM_INFO verilog_src/uvm-1.1d/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.m_top_env.m_spi_agent.m_spi_seqr [PHASESEQ] No default phase sequence for phase 'reset'
+# UVM_INFO verilog_src/uvm-1.1d/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.m_top_env.m_apb_agent.m_apb_seqr [PHASESEQ] No default phase sequence for phase 'reset'
+# UVM_INFO verilog_src/uvm-1.1d/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.m_top_env.m_wb_agent.m_wb_seqr [PHASESEQ] No default phase sequence for phase 'post_reset'
+# UVM_INFO verilog_src/uvm-1.1d/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.m_top_env.m_spi_agent.m_spi_seqr [PHASESEQ] No default phase sequence for phase 'post_reset'
+# UVM_INFO verilog_src/uvm-1.1d/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.m_top_env.m_apb_agent.m_apb_seqr [PHASESEQ] No default phase sequence for phase 'post_reset'
+# UVM_INFO verilog_src/uvm-1.1d/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.m_top_env.m_wb_agent.m_wb_seqr [PHASESEQ] No default phase sequence for phase 'pre_configure'
+# UVM_INFO verilog_src/uvm-1.1d/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.m_top_env.m_spi_agent.m_spi_seqr [PHASESEQ] No default phase sequence for phase 'pre_configure'
+# UVM_INFO verilog_src/uvm-1.1d/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.m_top_env.m_apb_agent.m_apb_seqr [PHASESEQ] No default phase sequence for phase 'pre_configure'
+# UVM_INFO verilog_src/uvm-1.1d/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.m_top_env.m_wb_agent.m_wb_seqr [PHASESEQ] No default phase sequence for phase 'configure'
+# UVM_INFO verilog_src/uvm-1.1d/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.m_top_env.m_spi_agent.m_spi_seqr [PHASESEQ] No default phase sequence for phase 'configure'
+# UVM_INFO verilog_src/uvm-1.1d/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.m_top_env.m_apb_agent.m_apb_seqr [PHASESEQ] No default phase sequence for phase 'configure'
+# UVM_INFO verilog_src/uvm-1.1d/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.m_top_env.m_wb_agent.m_wb_seqr [PHASESEQ] No default phase sequence for phase 'post_configure'
+# UVM_INFO verilog_src/uvm-1.1d/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.m_top_env.m_spi_agent.m_spi_seqr [PHASESEQ] No default phase sequence for phase 'post_configure'
+# UVM_INFO verilog_src/uvm-1.1d/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.m_top_env.m_apb_agent.m_apb_seqr [PHASESEQ] No default phase sequence for phase 'post_configure'
+# UVM_INFO verilog_src/uvm-1.1d/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.m_top_env.m_wb_agent.m_wb_seqr [PHASESEQ] No default phase sequence for phase 'pre_main'
+# UVM_INFO verilog_src/uvm-1.1d/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.m_top_env.m_spi_agent.m_spi_seqr [PHASESEQ] No default phase sequence for phase 'pre_main'
+# UVM_INFO verilog_src/uvm-1.1d/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.m_top_env.m_apb_agent.m_apb_seqr [PHASESEQ] No default phase sequence for phase 'pre_main'
+# ** Fatal: Illegal assignment to class mtiUvm.uvm_pkg::uvm_sequencer #(class mtiUvm.uvm_pkg::uvm_sequence_item, class mtiUvm.uvm_pkg::uvm_sequence_item) from class mtiUvm.uvm_pkg::uvm_sequencer #(class work.tb_sv_unit::apb_tx, class work.tb_sv_unit::apb_tx)
+# 
+#    Time: 0 ps  Iteration: 121  Process: /uvm_pkg::uvm_task_phase::execute/#FORK#137(#ublk#215181159#137)_4f607fc0 File: ../tb/tb.sv
+# Fatal error in Task tb_sv_unit/base_test::main_phase at ../tb/tb.sv line 95
+# 
+# HDL call sequence:
+# Stopped at ../tb/tb.sv 95 Task tb_sv_unit/base_test::main_phase
+# called from  E:/questa/questa_setup/win64/../verilog_src/uvm-1.1d/src/base/uvm_runtime_phases.svh 343 Task uvm_pkg/uvm_main_phase::exec_task
+# called from  E:/questa/questa_setup/win64/../verilog_src/uvm-1.1d/src/base/uvm_task_phase.svh 150 Function uvm_pkg/uvm_task_phase::execute
+# 
+#  quit -f
+# End time: 16:27:07 on Feb 12,2019, Elapsed time: 0:00:03
+# Errors: 2, Warnings: 0
