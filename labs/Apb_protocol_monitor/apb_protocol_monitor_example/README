@@ -7,6 +7,7 @@ To run the example:
 cd sim
 make
 
+
 The Makefile in the sim directory will compile and simulate the testbench
 containing the monitor in Questa. If the process is successful there will be
 a UVM_TEST_PASSED message issued at the end of the simulation.
