@@ -35,7 +35,7 @@
 //   CONDITIONS OF ANY KIND, either express or implied.  See
 //   the License for the specific language governing
 //   permissions and limitations under the License.
-//------------------------------------------------------------------------------
+//----- -------------------------------------------------------------------------
 module sfr_dut #(ADDR_WIDTH = 8,
                  DATA_WIDTH = 8)
                (input clk,
